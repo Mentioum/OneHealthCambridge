@@ -36,14 +36,14 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
-		color: #888;
+		line-height: 1.4;
+		color: #444;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
-		color: #666;
+		color: #444;
 		line-height: 1.5em;
 	}
 	
@@ -156,6 +156,11 @@
 		margin-bottom: 2em;
 	}
 
+	p > strong
+	{
+		font-weight: bold;
+	}
+
 	br.clear
 	{
 		clear: both;
@@ -207,7 +212,6 @@
 			{
 				width: 48px;
 				height: 48px;
-				background: #f00;
 			}
 			
 				.image.avatar48 img
@@ -486,6 +490,7 @@
 		{
 			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
 			margin-bottom: 40px;
+			background: #fff;
 		}
 		
 			.item header
@@ -494,6 +499,13 @@
 				margin: 0;
 				padding: 1em 0 1em 0;
 				font-size: 0.8em;
+			}
+			.item > p
+			{
+				background: : #fff;
+				margin: 0;
+				padding: 1em 2em 1em 2em;
+				font-size: 0.7em;
 			}
 
 				.item header h3
@@ -765,7 +777,7 @@
 		
 			#main > section.one
 			{
-				background-color: #81918E;
+				background-color: #7491ac;
 				background-image: url('../images/banner.jpg');
 			}
 
