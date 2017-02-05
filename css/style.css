@@ -744,7 +744,7 @@
 			#main > section.dark
 			{
 				color: #ddd;
-				color: rgba(255,255,255,0.75);
+				color: rgba(0,0,0,0.75);
 			}
 
 				#main > section.dark h2,
@@ -759,7 +759,7 @@
 				#main > section.dark strong,
 				#main > section.dark a
 				{
-					color: #fff;
+					color: #000;
 					border-color: inherit;
 				}
 
